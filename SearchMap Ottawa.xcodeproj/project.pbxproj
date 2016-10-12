@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9B9C781DADB70B002C7DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B9C771DADB70B002C7DA8 /* AppDelegate.swift */; };
+		AA9B9C7A1DADB70B002C7DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B9C791DADB70B002C7DA8 /* ViewController.swift */; };
+		AA9B9C7D1DADB70B002C7DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9B9C7B1DADB70B002C7DA8 /* Main.storyboard */; };
+		AA9B9C7F1DADB70B002C7DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9B9C7E1DADB70B002C7DA8 /* Assets.xcassets */; };
+		AA9B9C821DADB70B002C7DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9B9C801DADB70B002C7DA8 /* LaunchScreen.storyboard */; };
+		AA9B9C8D1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B9C8C1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9B9C891DADB70B002C7DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9B9C6C1DADB70B002C7DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9B9C731DADB70B002C7DA8;
+			remoteInfo = "SearchMap Ottawa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA9B9C741DADB70B002C7DA8 /* SearchMap Ottawa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SearchMap Ottawa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9B9C771DADB70B002C7DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9B9C791DADB70B002C7DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA9B9C7C1DADB70B002C7DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9B9C7E1DADB70B002C7DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9B9C811DADB70B002C7DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9B9C831DADB70B002C7DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9B9C881DADB70B002C7DA8 /* SearchMap OttawaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchMap OttawaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9B9C8C1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMap_OttawaTests.swift; sourceTree = "<group>"; };
+		AA9B9C8E1DADB70B002C7DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9B9C711DADB70B002C7DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9B9C851DADB70B002C7DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9B9C6B1DADB70B002C7DA8 = {
+			isa = PBXGroup;
+			children = (
+				AA9B9C761DADB70B002C7DA8 /* SearchMap Ottawa */,
+				AA9B9C8B1DADB70B002C7DA8 /* SearchMap OttawaTests */,
+				AA9B9C751DADB70B002C7DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9B9C751DADB70B002C7DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B9C741DADB70B002C7DA8 /* SearchMap Ottawa.app */,
+				AA9B9C881DADB70B002C7DA8 /* SearchMap OttawaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9B9C761DADB70B002C7DA8 /* SearchMap Ottawa */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B9C771DADB70B002C7DA8 /* AppDelegate.swift */,
+				AA9B9C791DADB70B002C7DA8 /* ViewController.swift */,
+				AA9B9C7B1DADB70B002C7DA8 /* Main.storyboard */,
+				AA9B9C7E1DADB70B002C7DA8 /* Assets.xcassets */,
+				AA9B9C801DADB70B002C7DA8 /* LaunchScreen.storyboard */,
+				AA9B9C831DADB70B002C7DA8 /* Info.plist */,
+			);
+			path = "SearchMap Ottawa";
+			sourceTree = "<group>";
+		};
+		AA9B9C8B1DADB70B002C7DA8 /* SearchMap OttawaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B9C8C1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift */,
+				AA9B9C8E1DADB70B002C7DA8 /* Info.plist */,
+			);
+			path = "SearchMap OttawaTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9B9C731DADB70B002C7DA8 /* SearchMap Ottawa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9B9C911DADB70B002C7DA8 /* Build configuration list for PBXNativeTarget "SearchMap Ottawa" */;
+			buildPhases = (
+				AA9B9C701DADB70B002C7DA8 /* Sources */,
+				AA9B9C711DADB70B002C7DA8 /* Frameworks */,
+				AA9B9C721DADB70B002C7DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SearchMap Ottawa";
+			productName = "SearchMap Ottawa";
+			productReference = AA9B9C741DADB70B002C7DA8 /* SearchMap Ottawa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9B9C871DADB70B002C7DA8 /* SearchMap OttawaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9B9C941DADB70B002C7DA8 /* Build configuration list for PBXNativeTarget "SearchMap OttawaTests" */;
+			buildPhases = (
+				AA9B9C841DADB70B002C7DA8 /* Sources */,
+				AA9B9C851DADB70B002C7DA8 /* Frameworks */,
+				AA9B9C861DADB70B002C7DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9B9C8A1DADB70B002C7DA8 /* PBXTargetDependency */,
+			);
+			name = "SearchMap OttawaTests";
+			productName = "SearchMap OttawaTests";
+			productReference = AA9B9C881DADB70B002C7DA8 /* SearchMap OttawaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9B9C6C1DADB70B002C7DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "yu ni";
+				TargetAttributes = {
+					AA9B9C731DADB70B002C7DA8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AA9B9C871DADB70B002C7DA8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA9B9C731DADB70B002C7DA8;
+					};
+				};
+			};
+			buildConfigurationList = AA9B9C6F1DADB70B002C7DA8 /* Build configuration list for PBXProject "SearchMap Ottawa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9B9C6B1DADB70B002C7DA8;
+			productRefGroup = AA9B9C751DADB70B002C7DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9B9C731DADB70B002C7DA8 /* SearchMap Ottawa */,
+				AA9B9C871DADB70B002C7DA8 /* SearchMap OttawaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9B9C721DADB70B002C7DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9B9C821DADB70B002C7DA8 /* LaunchScreen.storyboard in Resources */,
+				AA9B9C7F1DADB70B002C7DA8 /* Assets.xcassets in Resources */,
+				AA9B9C7D1DADB70B002C7DA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9B9C861DADB70B002C7DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9B9C701DADB70B002C7DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9B9C7A1DADB70B002C7DA8 /* ViewController.swift in Sources */,
+				AA9B9C781DADB70B002C7DA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9B9C841DADB70B002C7DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9B9C8D1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9B9C8A1DADB70B002C7DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9B9C731DADB70B002C7DA8 /* SearchMap Ottawa */;
+			targetProxy = AA9B9C891DADB70B002C7DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA9B9C7B1DADB70B002C7DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9B9C7C1DADB70B002C7DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9B9C801DADB70B002C7DA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9B9C811DADB70B002C7DA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9B9C8F1DADB70B002C7DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9B9C901DADB70B002C7DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9B9C921DADB70B002C7DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SearchMap Ottawa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "study.SearchMap-Ottawa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA9B9C931DADB70B002C7DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SearchMap Ottawa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "study.SearchMap-Ottawa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA9B9C951DADB70B002C7DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SearchMap OttawaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "study.SearchMap-OttawaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchMap Ottawa.app/SearchMap Ottawa";
+			};
+			name = Debug;
+		};
+		AA9B9C961DADB70B002C7DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SearchMap OttawaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "study.SearchMap-OttawaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchMap Ottawa.app/SearchMap Ottawa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9B9C6F1DADB70B002C7DA8 /* Build configuration list for PBXProject "SearchMap Ottawa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9B9C8F1DADB70B002C7DA8 /* Debug */,
+				AA9B9C901DADB70B002C7DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9B9C911DADB70B002C7DA8 /* Build configuration list for PBXNativeTarget "SearchMap Ottawa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9B9C921DADB70B002C7DA8 /* Debug */,
+				AA9B9C931DADB70B002C7DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA9B9C941DADB70B002C7DA8 /* Build configuration list for PBXNativeTarget "SearchMap OttawaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9B9C951DADB70B002C7DA8 /* Debug */,
+				AA9B9C961DADB70B002C7DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9B9C6C1DADB70B002C7DA8 /* Project object */;
+}
