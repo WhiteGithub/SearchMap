@@ -1,25 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SearchMap_Ottawa" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wUO-3q-C1m">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PP-UO-JuP">
+                                <rect key="frame" x="180" y="500" width="40" height="40"/>
+                                <state key="normal" title="Button" image="1"/>
+                                <connections>
+                                    <action selector="btnMenuClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="evm-ql-xHv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTS-Im-cyX">
+                                <rect key="frame" x="132" y="433" width="57" height="30"/>
+                                <color key="backgroundColor" red="0.83195501565933228" green="0.92763864994049072" blue="0.63576894998550415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="Ycc-fQ-Cd8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Hospital">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnHospitalClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kj8-QC-Gxw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FrT-ns-jAx">
+                                <rect key="frame" x="143" y="433" width="37" height="30"/>
+                                <color key="backgroundColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="37" id="0Dm-b5-lCu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Hotel">
+                                    <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnHotelClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7jn-UA-ICp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0b-L5-NGF">
+                                <rect key="frame" x="146" y="433" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.91252094507217407" green="0.44257986545562744" blue="0.29126924276351929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="h32-SQ-nm9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Mall">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btmMallClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3dR-Jt-fVI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8h-El-MwC">
+                                <rect key="frame" x="124" y="433" width="75" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="0V7-ua-iEK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Supermarket">
+                                    <color key="titleColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSupermarket:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HVu-Da-fMH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wUO-3q-C1m" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6C1-T8-Zkl"/>
+                            <constraint firstItem="m8h-El-MwC" firstAttribute="top" secondItem="Q0b-L5-NGF" secondAttribute="top" id="A8f-Hb-8EK"/>
+                            <constraint firstItem="FrT-ns-jAx" firstAttribute="centerX" secondItem="Q0b-L5-NGF" secondAttribute="centerX" id="AQA-u8-vWc"/>
+                            <constraint firstItem="FrT-ns-jAx" firstAttribute="firstBaseline" secondItem="Q0b-L5-NGF" secondAttribute="baseline" id="As7-0C-drv"/>
+                            <constraint firstItem="oTS-Im-cyX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="413" id="BbF-Zn-Yjp"/>
+                            <constraint firstItem="oTS-Im-cyX" firstAttribute="baseline" secondItem="m8h-El-MwC" secondAttribute="firstBaseline" id="GfM-Ve-Mi2"/>
+                            <constraint firstItem="m8h-El-MwC" firstAttribute="baseline" secondItem="oTS-Im-cyX" secondAttribute="baseline" id="Hsj-1w-85N"/>
+                            <constraint firstItem="FrT-ns-jAx" firstAttribute="baseline" secondItem="oTS-Im-cyX" secondAttribute="firstBaseline" id="Rcn-7B-mAs"/>
+                            <constraint firstItem="oTS-Im-cyX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S5P-Gq-TGB"/>
+                            <constraint firstItem="Q0b-L5-NGF" firstAttribute="centerX" secondItem="m8h-El-MwC" secondAttribute="centerX" id="TdD-xc-Vse"/>
+                            <constraint firstItem="FrT-ns-jAx" firstAttribute="baseline" secondItem="oTS-Im-cyX" secondAttribute="baseline" id="YH2-zF-cEU"/>
+                            <constraint firstItem="wUO-3q-C1m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jGa-Vg-b82"/>
+                            <constraint firstItem="oTS-Im-cyX" firstAttribute="centerX" secondItem="Q0b-L5-NGF" secondAttribute="centerX" id="jLn-mz-e5I"/>
+                            <constraint firstItem="oTS-Im-cyX" firstAttribute="top" secondItem="Q0b-L5-NGF" secondAttribute="top" id="ln6-Ie-JUi"/>
+                            <constraint firstItem="FrT-ns-jAx" firstAttribute="top" secondItem="Q0b-L5-NGF" secondAttribute="top" id="pjL-LJ-2ZM"/>
+                            <constraint firstItem="FrT-ns-jAx" firstAttribute="baseline" secondItem="Q0b-L5-NGF" secondAttribute="firstBaseline" id="tl0-3Z-r42"/>
+                            <constraint firstItem="FrT-ns-jAx" firstAttribute="baseline" secondItem="Q0b-L5-NGF" secondAttribute="baseline" id="v6G-E0-dzY"/>
+                            <constraint firstItem="wUO-3q-C1m" firstAttribute="centerX" secondItem="oTS-Im-cyX" secondAttribute="centerX" id="wKZ-U6-yn9"/>
+                            <constraint firstItem="wUO-3q-C1m" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="wY2-wi-qxV"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnHospital" destination="oTS-Im-cyX" id="w3Y-0h-cFe"/>
+                        <outlet property="btnHotel" destination="FrT-ns-jAx" id="eMg-6F-yVA"/>
+                        <outlet property="btnMall" destination="Q0b-L5-NGF" id="l6t-xd-k0a"/>
+                        <outlet property="btnMenu" destination="9PP-UO-JuP" id="LKd-ZC-vXL"/>
+                        <outlet property="btnSupermarket" destination="m8h-El-MwC" id="bUG-vh-bA9"/>
+                        <outlet property="mapView" destination="wUO-3q-C1m" id="LZU-bH-ZlS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="210" y="406"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1" width="1005" height="952"/>
+    </resources>
 </document>

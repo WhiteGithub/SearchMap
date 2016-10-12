@@ -13,6 +13,7 @@
 		AA9B9C7F1DADB70B002C7DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9B9C7E1DADB70B002C7DA8 /* Assets.xcassets */; };
 		AA9B9C821DADB70B002C7DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9B9C801DADB70B002C7DA8 /* LaunchScreen.storyboard */; };
 		AA9B9C8D1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B9C8C1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift */; };
+		AA9B9C981DAE70DC002C7DA8 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B9C971DAE70DC002C7DA8 /* MyAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AA9B9C881DADB70B002C7DA8 /* SearchMap OttawaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchMap OttawaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9B9C8C1DADB70B002C7DA8 /* SearchMap_OttawaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMap_OttawaTests.swift; sourceTree = "<group>"; };
 		AA9B9C8E1DADB70B002C7DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9B9C971DAE70DC002C7DA8 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				AA9B9C7E1DADB70B002C7DA8 /* Assets.xcassets */,
 				AA9B9C801DADB70B002C7DA8 /* LaunchScreen.storyboard */,
 				AA9B9C831DADB70B002C7DA8 /* Info.plist */,
+				AA9B9C971DAE70DC002C7DA8 /* MyAnnotation.swift */,
 			);
 			path = "SearchMap Ottawa";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				AA9B9C7A1DADB70B002C7DA8 /* ViewController.swift in Sources */,
 				AA9B9C781DADB70B002C7DA8 /* AppDelegate.swift in Sources */,
+				AA9B9C981DAE70DC002C7DA8 /* MyAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
